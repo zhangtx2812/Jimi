@@ -87,7 +87,7 @@ namespace LittleFish.Application.Web
             if (ErrorToMail == true)
             {
                 string SystemName = Config.GetValue("SystemName");//系统名称
-                MailHelper.Send("receivebug@learun.cn", SystemName + " - 发生异常", body.Replace("-", ""));
+                MailHelper.Send("receivebug@littlefish.cn", SystemName + " - 发生异常", body.Replace("-", ""));
             }
         }
     }

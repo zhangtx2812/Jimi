@@ -35,7 +35,7 @@ namespace LittleFish.Application.Web
             //登录是否过期
             if (OperatorProvider.Provider.IsOverdue())
             {
-                WebHelper.WriteCookie("learun_login_error", "Overdue");//登录已超时,请重新登录
+                WebHelper.WriteCookie("littlefish_login_error", "Overdue");//登录已超时,请重新登录
                 filterContext.Result = new RedirectResult("~/Login/Default");
                 return;
             }
@@ -43,13 +43,13 @@ namespace LittleFish.Application.Web
             var OnLine = OperatorProvider.Provider.IsOnLine();
             if (OnLine == 0)
             {
-                WebHelper.WriteCookie("learun_login_error", "OnLine");//您的帐号已在其它地方登录,请重新登录
+                WebHelper.WriteCookie("littlefish_login_error", "OnLine");//您的帐号已在其它地方登录,请重新登录
                 filterContext.Result = new RedirectResult("~/Login/Default");
                 return;
             }
             else if (OnLine == -1)
             {
-                WebHelper.WriteCookie("learun_login_error", "-1");//缓存已超时,请重新登录
+                WebHelper.WriteCookie("littlefish_login_error", "-1");//缓存已超时,请重新登录
                 //filterContext.Result = new RedirectResult("~/Login/Default");
                 return;
             }

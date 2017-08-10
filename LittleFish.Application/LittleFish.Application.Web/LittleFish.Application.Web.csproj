@@ -297,15 +297,15 @@
     <Content Include="Content\scripts\plugins\printTable\jquery.printTable.js" />
     <Content Include="Content\scripts\plugins\tipso.min.js" />
     <Content Include="Content\styles\fonts\fontawesome-webfont.svg" />
-    <Content Include="Content\styles\learun-ckbox-radio.css" />
-    <Content Include="Content\styles\learun-bill.css" />
-    <Content Include="Content\styles\learun-flow.css" />
-    <Content Include="Content\styles\learun-report.css" />
+    <Content Include="Content\styles\littlefish-ckbox-radio.css" />
+    <Content Include="Content\styles\littlefish-bill.css" />
+    <Content Include="Content\styles\littlefish-flow.css" />
+    <Content Include="Content\styles\littlefish-report.css" />
     <Content Include="Content\images\404_r1_c2.png" />
     <Content Include="Content\scripts\jquery\jquery-2.0.3.min.js" />
-    <Content Include="Content\styles\learun-applayout.css" />
-    <Content Include="Content\styles\learun-im.css" />
-    <Content Include="Content\styles\learun-login.css" />
+    <Content Include="Content\styles\littlefish-applayout.css" />
+    <Content Include="Content\styles\littlefish-im.css" />
+    <Content Include="Content\styles\littlefish-login.css" />
     <Content Include="Content\images\duihao_03.png" />
     <Content Include="Content\images\filetype\apk.png" />
     <Content Include="Content\images\filetype\avi.png" />
@@ -452,12 +452,12 @@
     <Content Include="Content\scripts\plugins\simditor\js\uploader.min.js" />
     <Content Include="Content\scripts\plugins\simditor\css\simditor.css" />
     <Content Include="Content\scripts\plugins\slimscroll\jquery.slimscroll.min.js" />
-    <Content Include="Content\scripts\utils\learun-form.js" />
+    <Content Include="Content\scripts\utils\littlefish-form.js" />
     <Content Include="Content\adminDefault\js\default.js" />
-    <Content Include="Content\scripts\utils\learun-applayout.js" />
-    <Content Include="Content\scripts\utils\learun-clientdata.js" />
-    <Content Include="Content\scripts\utils\learun-flowlayout.js" />
-    <Content Include="Content\scripts\utils\learun-im.js" />
+    <Content Include="Content\scripts\utils\littlefish-applayout.js" />
+    <Content Include="Content\scripts\utils\littlefish-clientdata.js" />
+    <Content Include="Content\scripts\utils\littlefish-flowlayout.js" />
+    <Content Include="Content\scripts\utils\littlefish-im.js" />
     <Content Include="Content\images\video\5103.wav" />
     <Content Include="Index.htm" />
     <Content Include="Views\Home\Desktop.cshtml" />
@@ -679,7 +679,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\styles\font-awesome.min.css" />
-    <Content Include="Content\styles\learun-ui.css" />
+    <Content Include="Content\styles\littlefish-ui.css" />
     <Content Include="Content\images\a2.png" />
     <Content Include="Content\images\accept.png" />
     <Content Include="Content\images\ajax-loader.gif" />
@@ -1136,7 +1136,7 @@
     <Content Include="Content\scripts\plugins\validator\validator.js" />
     <Content Include="Content\scripts\plugins\wizard\wizard.css" />
     <Content Include="Content\scripts\plugins\wizard\wizard.js" />
-    <Content Include="Content\scripts\utils\learun-ui.js" />
+    <Content Include="Content\scripts\utils\littlefish-ui.js" />
     <Content Include="Global.asax" />
   </ItemGroup>
   <ItemGroup />

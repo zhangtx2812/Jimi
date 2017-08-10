@@ -64,8 +64,8 @@
                     var _listhtml = '<li><div style="width: ' + (item.isfinish == 4 ? '239px' : '160px') + '; line-height: 38px;margin-top:11px;  float: right;">' + (item.isfinish == 4 ? '<a class="btn btn-warning applicationmodel"  style="margin-right:4px;"  >重新申请</a>' : '') + '<a class="btn btn-success previewmodel" style="margin-right:4px;">进度查看</a><a class="btn btn-danger deletemodel" >流程召回</a></div>';
                     _listhtml += '<div style="float: left;">';
                     _listhtml += '<span class="item-text">' + item.code + '/' + item.customname + '</span>';
-                    _listhtml += '<div><span class=\"label label-success-learun\" data-toggle="tooltip" data-placement="top" title="流程分类" >' + item.schemetypename + '</span>';
-                    _listhtml += '<span style="margin-left:5px;" class=\"label label-inverse-learun\" data-toggle="tooltip" data-placement="top" title="当前节点">' + item.activityname + '</span>';
+                    _listhtml += '<div><span class=\"label label-success-littlefish\" data-toggle="tooltip" data-placement="top" title="流程分类" >' + item.schemetypename + '</span>';
+                    _listhtml += '<span style="margin-left:5px;" class=\"label label-inverse-littlefish\" data-toggle="tooltip" data-placement="top" title="当前节点">' + item.activityname + '</span>';
                     if (item.enabledmark == 1) {
                         if (item.isfinish == 3) {
                             _listhtml += '<span style="margin-left:5px;" class=\"label label-danger\" data-toggle="tooltip" data-placement="top" title="状态">不通过</span>';
@@ -81,7 +81,7 @@
                         }
                     }
                     else {
-                        _listhtml += '<span style="margin-left:5px;" class=\"label label-important-learun\" data-toggle="tooltip" data-placement="top" title="状态" >暂停</span>';
+                        _listhtml += '<span style="margin-left:5px;" class=\"label label-important-littlefish\" data-toggle="tooltip" data-placement="top" title="状态" >暂停</span>';
                     }
                    
                     switch (item.wflevel)

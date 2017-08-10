@@ -261,9 +261,9 @@ div.standtabactived{background-color: rgb(255,255,255);}
 .no-data {background: #FFF url(../Images/no_data.png) 100px 60px no-repeat;height: 402px;margin-right: 18px;position:absolute;z-index:200;top:150px;width:700px;left:18px;}
 .bottomline {border-bottom:1px solid #ccc; padding-top:12px; padding-left:40px; height: 44px;}
 
-.label-success-learun {background:#0aa699;}
-.label-inverse-learun {background:#1f3853;}
-.label-important-learun {background:#f35958;}
+.label-success-littlefish {background:#0aa699;}
+.label-inverse-littlefish {background:#1f3853;}
+.label-important-littlefish {background:#f35958;}
 
 .wizard {border-left: none; border-top: none; border-right: none;}
 .wizard-step-content {border-left: none; border-bottom: none; border-right: none;}

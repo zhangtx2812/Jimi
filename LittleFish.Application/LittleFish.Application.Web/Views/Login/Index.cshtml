@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width" />
     <title>@LittleFish.Util.Config.GetValue("SystemName").ToString()</title>
     <script src="~/Content/scripts/jquery/jquery-1.10.2.min.js"></script>
-    <link href="~/Content/styles/learun-login.css" rel="stylesheet" />
+    <link href="~/Content/styles/littlefish-login.css" rel="stylesheet" />
     <link href="~/Content/styles/font-awesome.min.css" rel="stylesheet" />
     <script src="~/Content/scripts/plugins/jquery.md5.js"></script>
     <script src="~/Content/scripts/plugins/cookie/jquery.cookie.js"></script>
     <script src="~/Content/scripts/plugins/dialog/dialog.js"></script>
-    <script src="~/Content/scripts/utils/learun-ui.js"></script>
+    <script src="~/Content/scripts/utils/littlefish-ui.js"></script>
     <script src="~/Content/scripts/plugins/validator/validator.js"></script>
     <script src="~/Content/scripts/plugins/tipso.min.js"></script>
     <script>
@@ -36,8 +36,8 @@
                 e.stopPropagation();
             });
             //错误提示
-            if (top.$.cookie('learun_login_error') != null) {
-                switch (top.$.cookie('learun_login_error')) {
+            if (top.$.cookie('littlefish_login_error') != null) {
+                switch (top.$.cookie('littlefish_login_error')) {
                     case "Overdue":
                         formMessage('登录已超时,请重新登录');
                         break;
@@ -50,7 +50,7 @@
                     default:
                         break;
                 }
-                top.$.cookie('learun_login_error', '', { path: "/", expires: -1 });
+                top.$.cookie('littlefish_login_error', '', { path: "/", expires: -1 });
             }
             //是否自动登录
             if (top.$.cookie('learn_autologin') == 1) {
@@ -300,7 +300,7 @@
                         <button id="btnlogin" type="button" class="pn"><span>登录</span></button>
 
                     </dd>
-                    <dd class="ft"><span>还没有力软框架帐号？</span><a id="a_register" style="cursor: pointer;">立即注册</a>
+                    <dd class="ft"><span>还没有小鱼框架帐号？</span><a id="a_register" style="cursor: pointer;">立即注册</a>
                     </dd>
                 </dl>
             </fieldset>
@@ -335,11 +335,11 @@
                             <img id="register_verifycode" width="100" height="30" alt="点击切换验证码" title="点击切换验证码" style="cursor: pointer; padding-top: 2px; padding-left: 5px;" />
                         </div>
                     </dd>
-                    <dd class="tos"><span>点击注册表示您已阅读并同意</span><a href="" target="_blank">《力软服务条款》</a></dd>
+                    <dd class="tos"><span>点击注册表示您已阅读并同意</span><a href="" target="_blank">《小鱼服务条款》</a></dd>
                     <dd class="btn">
                         <button id="btnregister" type="button" class="pn"><span>注册</span></button>
                     </dd>
-                    <dd class="ft"><span>已有力软框架帐号？</span><a id="a_login" style="cursor: pointer;">直接登录</a>
+                    <dd class="ft"><span>已有小鱼框架帐号？</span><a id="a_login" style="cursor: pointer;">直接登录</a>
                     </dd>
                 </dl>
             </fieldset>
@@ -348,7 +348,7 @@
     <div class="copyright">
         小鱼科技有限公司出品
         <br>
-        LR-ADMS 敏捷开发框架官方网站：http://www.learun.cn/adms/index.html 
+        LR-ADMS 敏捷开发框架官方网站：http://www.littlefish.cn/adms/index.html 
     </div>
     <div class="rides-cs">
         <div style="float: left;">

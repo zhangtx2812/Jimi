@@ -16,7 +16,7 @@ $.fn.printArea = function (opt) {
     // 自动添加样式
     for (var i = 0, len = links.length; i < len; i++) {
         if (links[i].rel === 'stylesheet') {
-            //if (opt.usePageStyle || links[i].href.indexOf('learun-report.css') !== -1) {
+            //if (opt.usePageStyle || links[i].href.indexOf('littlefish-report.css') !== -1) {
             //    html += links[i].outerHTML;
             //}
             if (opt.usePageStyle || links[i].href.indexOf('.css') !== -1) {
