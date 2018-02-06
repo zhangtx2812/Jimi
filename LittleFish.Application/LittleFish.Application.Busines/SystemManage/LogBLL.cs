@@ -67,9 +67,9 @@ namespace LittleFish.Application.Busines.SystemManage
             {
                 service.WriteLog(logEntity);
             }
-            catch (Exception)
+            catch (Exception se)
             {
-                throw;
+                throw se;
             }
         }
         #endregion
