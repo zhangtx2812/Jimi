@@ -25,7 +25,7 @@ namespace LittleFish.Util
         /// <returns></returns>
         public static string Encrypt(string Text)
         {
-            return Encrypt(Text, "learun###***");
+            return Encrypt(Text, "LittleFish");
         }
         /// <summary> 
         /// 加密数据 
@@ -64,7 +64,7 @@ namespace LittleFish.Util
         {
             if (!string.IsNullOrEmpty(Text))
             {
-                return Decrypt(Text, "learun###***");
+                return Decrypt(Text, "LittleFish");
             }
             else
             {

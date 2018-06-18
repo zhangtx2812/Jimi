@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework 基础设施层", "Framework 基础设施层", "{C6B09613-CC72-4D16-8056-1FD68ED86BF3}"
 EndProject
@@ -78,6 +78,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleFish.Cache.Factory", "LittleFish.Cache\LittleFish.Cache.Factory\LittleFish.Cache.Factory.csproj", "{A68CDD21-2E12-4B11-95DB-D0A0FCED48B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleFish.Util.SignalR", "LittleFish.Util.SignalR\LittleFish.Util.SignalR.csproj", "{6BC8C632-4985-4E7E-B5CA-375D400EA8A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{DD76AE50-16B2-4EFF-A1D0-05C0D8B95332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleFilsh.Tools", "LittleFilsh.Tools\LittleFilsh.Tools.csproj", "{1E64D6AD-7550-4491-BFB4-91C6BC6127E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,6 +197,10 @@ Global
 		{6BC8C632-4985-4E7E-B5CA-375D400EA8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BC8C632-4985-4E7E-B5CA-375D400EA8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BC8C632-4985-4E7E-B5CA-375D400EA8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E64D6AD-7550-4491-BFB4-91C6BC6127E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E64D6AD-7550-4491-BFB4-91C6BC6127E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E64D6AD-7550-4491-BFB4-91C6BC6127E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E64D6AD-7550-4491-BFB4-91C6BC6127E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,8 +238,10 @@ Global
 		{C10920FE-8C74-4993-A7F4-1DA189DA842C} = {1B8156EC-FC04-48C0-9904-8782705A2175}
 		{A68CDD21-2E12-4B11-95DB-D0A0FCED48B1} = {BBB63BC5-EBF2-4ED2-8804-7187223C3DF5}
 		{6BC8C632-4985-4E7E-B5CA-375D400EA8A5} = {5C21750D-4143-4749-9489-F739765F542D}
+		{1E64D6AD-7550-4491-BFB4-91C6BC6127E2} = {DD76AE50-16B2-4EFF-A1D0-05C0D8B95332}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+		SolutionGuid = {CACFB1B2-F461-4007-9BAB-7BB6E624B787}
 	EndGlobalSection
 EndGlobal
